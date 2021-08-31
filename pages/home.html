@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap" rel="stylesheet">
+    </head>
 <body>
     <h2>The form has been cancelled.</h2>
+    <header class="header-content header">
+        <div class="logo-content">
+            <img src="../assets/assets/images/logo.png" alt="logo">
+            <div>
+                <span class="emp-text">EMPLOYEE</span><br>
+                <span class="emp-text emp-payroll">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="header-content">
+            <div class="emp-detail-text">
+                Employee Details : <div class="emp-count">10</div>
+                </div>
+        <a href="../pages/emp_payroll_form.html" class="add-button">
+            <img src="../assets/assets/icons/add-24px.svg" alt="add">Add User
+        </a>
+    </div>
+</div>
+   <table id="display" class="table">
+    <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Department</th>
+        <th>Salary</th>
+        <th>Start Date</th>
+        <th>Action</th>
+    </tr>
+    <tr>
+        <td>
+        <img src="../assets/assets/profile-images/Ellipse -5.png" alt="" class="profile">
+    </td>
+    <td> Rahul</td>
+    <td> Male</td>
+    <td>
+        <div class="dept-label">HR</div>
+        <div class="dept-label">Finance</div>
+    </td>
+    <td>30000</td>
+    <td>1 Nov 2017</td>
+    <td>
+        <img src="../assets/assets/icons/delete-black-18dp.svg" alt="" id="1" onclick="remove(this)">
+        <img src="../assets/assets/icons/create-black-18dp.svg" alt="" id="1" onclick="update(this)">
+    </td>
+    </tr>
+   </table>
 </body>
 </html>

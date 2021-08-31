@@ -56,16 +56,16 @@ class EmployeePayroll {
         let date = new Date();
         if (startDate < date) {
             this._startDate = startDate;
-        } else throw "Invalid Date"
+        } else throw "Invalid Date";
     }
     
 
     //Methods
     toString() {
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
-        const empDate = this.startDate === undefined ? "Undefined" : this.startDate.toLocaleDateString("en-US", options);
-        return "id : " + this.id + " Name : " + this.name + " Gender : " + this.gender + " Profile Pic : "
-            + this.profilePic + " Department : " + this.department + " Salary : " + this.salary + " Start Date : " + empDate
-            + " Notes : " + this.note;
+        const empDate = !this.startDate ? "undefined" : this.startDate.toLocaleDateString("en-US", options);
+        return "id= " + this.id + ", name ='" + this.name + ", gender = '" + this.gender +
+            ", profilePic = '" + this.profilePic + ", department = " + this.department + ",salary = " + this.salary + ", startDate= " + empDate + ",note= " + this.note;
+
     }
 }
