@@ -26,6 +26,7 @@ salary.addEventListener('input', function(){
  * UC11 to create Employee Payroll Object On Save.
  */
 const save = () => {
+    console.log("save");
     try {
         let employeePayrollData = createEmployeePayroll();
         createAndUpdateStorage(employeePayrollData);

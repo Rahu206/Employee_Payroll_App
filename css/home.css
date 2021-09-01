@@ -22,7 +22,7 @@ body{
     width: 80%;
 }
 .logo-content-img{
-    border: solid 0px #42515f;
+    border: solid 0px #9c4720;
 }
 .emp-text{
     font: normal normal bold 20px/25px Montserrat;
@@ -32,8 +32,58 @@ body{
     text-transform: capitalize;
 }
 .emp-payroll{
-    color: #42515f;
+    color: #1e8e92;
 }
 *{
     box-sizing: border-box;
+}
+/* UC 2 */
+.add-button {
+    font: normal normal normal 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #fff;
+    opacity: 1;
+    background: #82a70c 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 18px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #89d8cb;
+    padding: 30px 0 10px;
+    box-sizing: border-box;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.emp-detail-text {
+    font: normal normal bold 24px/25px Roboto;
+    letter-spacing: 0px;
+    color: #3056d3;
+    opacity: 1;
+}
+
+.emp-count {
+    background-color: #40b340;
+    color: #ffffff;
+    border-radius: 30%;
+    padding: 3px 2px 0px 2px;
+    margin-left: 15px;
+    font-size: 16px;
+    width: 26px;
+    text-align: center;
+    display: inline-block;
 }
