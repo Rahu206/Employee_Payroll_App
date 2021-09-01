@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap">
     <link rel="stylesheet" href="../css/home.css">
-    <script defer src="../js/home.js"></script>
 </head>
 <body>
       <!-------------UC 1------------------------->
@@ -31,8 +30,8 @@
             <img src="../assets/assets/icons/add-24px.svg" alt="add">Add User
         </a>
     </div><!--------------header content-------->
-</div>
-<table id="display" class="table">
+<div class="table-main">
+<table id="table-display" class="table">
     <!--------------UC 3------------>
     <tr>
         <th></th>
@@ -53,7 +52,7 @@
         <div class="dept-label">HR</div>
         <div class="dept-label">Finance</div>
     </td>
-    <td>300000</td>
+    <td>500000</td>
     <td>1 Nov 2020</td>
     <td>
         <img src="../assets/assets/icons/delete-black-18dp.svg" alt="" id="1" onclick="remove(this)">
@@ -61,5 +60,10 @@
     </td>
     </tr>
    </table>
+   </div><!-----------table-main------->
+    </div><!---------main content-------> 
+    <script src="../js/home.js"></script>
+    <script src="../js/employee_payroll_data.js"></script>
+
 </body>
 </html>

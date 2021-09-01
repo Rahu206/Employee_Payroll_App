@@ -5,20 +5,20 @@ body{
 }
 .header{
     padding: 15px 0;
-    background-color: #ffffff;
+    background-color: #bed1e9;
 }
 .header-content{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 0px solid green;
+    border: 0px solid rgb(138, 155, 138);
 }
 .logo-content{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 0px solid green;
+    border: 0px solid rgb(43, 131, 43);
     width: 80%;
 }
 .logo-content-img{

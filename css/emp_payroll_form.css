@@ -5,24 +5,24 @@ body{
 }
 .header{
     padding: 15px 0;
-    background-color: #c4d489;
+    background-color: #c4cc7d;
 }
 .header-content{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 0px solid rgb(57, 161, 57);
+    border: 0px solid rgb(17, 35, 75);
 }
 .logo-content{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 0px solid rgb(60, 156, 60);
+    border: 0px solid rgb(87, 116, 160);
     width: 80%;
 }
 .logo-content-img{
-    border: solid 1px #42515f;
+    border: solid 1px #daa6d7;
 }
 .emp-text{
     font: normal normal bold 20px/25px Montserrat;
@@ -32,7 +32,7 @@ body{
     text-transform: capitalize;
 }
 .emp-payroll{
-    color: #42515f;
+    color: #8f62d8;
 }
 *{
     box-sizing: border-box;
@@ -40,25 +40,25 @@ body{
 /* UC2 */
 .form-content{
     min-height: calc(100% - 80px);
-    background-color: #a4be86;
+    background-color: #d3ac9a;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(20, 83, 20);
+    border: 2px solid rgb(151, 172, 151);
 }
 .form{
     width: 65%;
     padding: 44px 60px;
-    background: #4ab488 0% 0% no-repeat padding-box;
+    background: #8dc7af 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
-    border: 1px solid #922929;
+    border: 1px solid #8f6d6d;
     border-radius: 12px;
     opacity: 1;
 }
 .form-head{
     font: normal normal bold 24px/37px Roboto;
     letter-spacing: 0px;
-    color: #a32874;
+    color: #f05684;
     text-transform: capitalize;
     opacity: 1;
     padding-bottom: 20px;
@@ -68,7 +68,7 @@ body{
     flex-direction: row;
     margin-bottom: 10px;
     align-items: center;
-    border: 0px solid rgb(112, 170, 112);
+    border: 0px solid rgb(56, 151, 56);
 }
 .label{
     min-width: 140px;
@@ -127,18 +127,18 @@ select{
     font-size: 20px;
     font-family: Roboto;
     letter-spacing: 0px;
-    color: #42515f;
+    color: #2b0c27;
     opacity: 1;
     background: transparent;
     border: none;
     font-weight: 400;
     min-width: 140px;
     padding: 7px 7px;
-    border: 2px solid #045819;
+    border: 2px solid #99187d;
     cursor: pointer;
 }
 .button:hover{
-    color: #7770d8;
+    color: #300a97;
     background-color: #9ad48d;
 }
 .submitButton:hover{
@@ -146,7 +146,7 @@ select{
 }
 .submitButton{
     border: 2px;
-    background-color: #7a7818;
+    background-color: #b52ab9;
     margin-right: 30px;
 }
 .cancelButton{
@@ -157,7 +157,7 @@ error-output {
     margin-left: 10px;
     font-size: 12px;
     font-style: Bold;
-    color: red;
+    color: rgb(233, 114, 35);
 }
 @media only screen and (max-width: 960px){
     .cancelButton{
