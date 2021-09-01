@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', (event) => {
+window.addEventListener('DOMContentLoaded',(event)=> {    
     const name = document.querySelector('#name');
     const textError = document.querySelector('.text-error');
     name.addEventListener('input', function () {
@@ -26,7 +26,6 @@ salary.addEventListener('input', function(){
  * UC11 to create Employee Payroll Object On Save.
  */
 const save = () => {
-    console.log("save");
     try {
         let employeePayrollData = createEmployeePayroll();
         createAndUpdateStorage(employeePayrollData);

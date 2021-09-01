@@ -52,8 +52,7 @@ class EmployeePayroll {
         return this._startDate;
     }
     set startDate(startDate) {
-        this._startDate = startDate;
-       
+        this._startDate = startDate; 
     }
     
 
