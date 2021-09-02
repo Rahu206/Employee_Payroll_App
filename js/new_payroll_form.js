@@ -40,8 +40,6 @@ date.addEventListener("input", function () {
         setTextValue(".date-error", e);
     }
     });
-
-    checkForUpdate();
 });
 
 
@@ -52,6 +50,7 @@ date.addEventListener("input", function () {
  const save = () => {
     try {
         let employeePayrollData = createEmployeePayroll();
+        alert(createEmployeePayroll());
         createAndUpadateStorage(employeePayrollData);
     } catch (e) {
         return;
