@@ -1,13 +1,13 @@
-class employeePayrollData {
+class EmployeePayrollData {
 
-    //Getters & Setter method
+    //getter and setter method
     get id() {
         return this._id;
     }
     set id(id) {
         this._id = id;
     }
-    
+
     get name() {
         return this._name;
     }
@@ -58,11 +58,10 @@ class employeePayrollData {
         return this._startDate;
     }
     set startDate(startDate){
-        this._startDate = startDate; 
+        this._startDate = startDate;
     }
-    
 
-    //Method
+    //method
     toString() {
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
         const empDate = !this.startDate ? "undefined" : this.startDate.toLocaleDateString("en-US", options);
